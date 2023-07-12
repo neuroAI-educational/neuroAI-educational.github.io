@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: speakers
+  - file: program
+  - file: material
+  - file: venue
+  - file: organizers
+  - file: CoC
