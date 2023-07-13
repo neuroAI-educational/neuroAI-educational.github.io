@@ -2,6 +2,8 @@
 
 ## Course introduction and overview of NeuroAI
 
+### Instructor
+
 ::::{card-carousel} 3
 :::{card} Prof. Pierre Bellec
 :margin: 3
@@ -11,11 +13,14 @@
 :::
 ::::
 
+
 **Pierre Bellec, PhD** TBD
+
 
 **Summary**: NeuroAI research makes use of artificial neural networks (ANNs) developed by the AI community to model the activity of the brain or, conversely, uses observations of the brain to infer better, more effective AI models. This broad research topic encompasses a rich variety of application tasks, ranging from vision to language but also increasingly including domains such as working memory or control tasks. NeuroAI also incorporates a wide range of techniques, from established analyses predicting brain activity using ANNs (brain encoding) to inferring stimuli from brain activity using ANNs (brain decoding), as well as emerging topics such as end-to-end training of ANNs to mimic brain activity or crafting stimuli maximizing brain responses using ANNs.
 
 This introduction will provide prominent examples of neuroAI research studies to illustrate major application domains and techniques, and conceptualize how the different lectures of the course will help the audience get exposed to the most salient areas of the neuroAI research space.
+
 
 ### Materials
 
@@ -37,15 +42,17 @@ Get to the session {fas}`arrow-right`
 ::::
 
 
+
 ## Technical and interpretive issues for constructing brain models from AI systems
-### Instructors
+
+### Instructor
 
 ::::{card-carousel} 3
 :::{card} Prof. Thomas Naselaris
 :margin: 3
 :class-body: text-center
 :link: https://github.com/tnaselar
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
+:img-top: images/thomas_naselaris.jpg
 :::
 ::::
 
@@ -60,24 +67,27 @@ This lecture will focus on technical and interpretive issues around constructing
 
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
+
+
 
 ## Brain encoding and decoding using biologically constrained DNNs
+
 ### Instructor
 
 ::::{card-carousel} 3
@@ -85,13 +95,13 @@ This lecture will focus on technical and interpretive issues around constructing
 :margin: 3
 :class-body: text-center
 :link: https://github.com/zhangyu2ustc
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
+:img-top: images/yu_zhang.jpg
 :::
 ::::
 
+
 **Yu Zhang, PhD** is a Researcher at Zhejiang Lab (https://en.zhejianglab.com/), working on bridging neuroscience research with artificial intelligence. Dr. Zhang received her Ph.D on medical imaging analysis from the Brainnetome center, Institute of Automation, Chinese Academy of Science in 2015, under the supervision of Prof. Tianzi Jiang. After graduation, she started her postdoctoral fellowship at McGill University and University de Montreal from 2015-2020. In 2018, Dr. Zhang received IVADO postdoc fellowship award funded for two years. In 2020, she joined the Zhejiang Lab at Hangzhou, China.
 Dr. Zhang has published over 30 scientific papers, with 2369 citations in total (such as eLife, Journal of Neuroscience, Cerebral Cortex, Neuroimage, Neurology etc.). Her current research interests include brain atlas, brain connectomes, encoding and decoding of brain cognition, modeling, simulating and modulating brain cognition using AI, and brain-inspired artificial intelligence.
-
 
 
 **Summary**: A major goal in cognitive neuroscience research is to better understand the neural basis of cognitive functions. Artificial intelligence provides new avenues for modeling, simulating or even modulating the comprehensive processes of human cognition. By leveraging human brain atlas and connectome priors, we proposed a biologically-constrained GNN (BGNN) model to effectively combine local and distributed brain activities. The BGNN model learns multistage (temporally) and multilevel (spatially) latent representations transforming from sensory processing to representational abstraction (encoding phase) and predicts cognitive states using embedded representations at fine timescales (decoding phase). Moreover, it uncovered inter-subject aligned, behaviorally relevant neural representations underpinning cognitive processes and achieved better decoding of cognitive tasks. This approach has shown promising findings in representational learning of cognitive function and biologically meaningful interpretations of AI modeling of human cognition.
@@ -99,28 +109,29 @@ Dr. Zhang has published over 30 scientific papers, with 2369 citations in total 
 In this hand-on session, I will introduce how to build such a biologically-constrained AI model by incorporating human brain atlas and connectome priors, how to optimize the DNN architecture for brain encoding and decoding, and how to interpret the representations learnt from AI models.
 
 
-
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
+
 
 
 ## Functional specialisation in biological and artificial neural networks
+
 ### Instructor
 
 ::::{card-carousel} 3
@@ -128,12 +139,12 @@ In this hand-on session, I will introduce how to build such a biologically-const
 :margin: 3
 :class-body: text-center
 :link: https://github.com/ShahabBakht
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
+:img-top: images/shahab_bakhtiari.jpg
 :::
 ::::
 
 
-**Shahab Bakhtiari, PhD** TBD
+**Shahab Bakhtiari, PhD** is an Assistant Professor at University of Montreal. He received his undergraduate and graduate degrees in Electrical Engineering from University of Tehran. He then went on to earn a PhD in Neuroscience from McGill University where he studied the neural mechanisms underlying visual learning and perception in primates.. After completing his PhD, he was a postdoctoral fellow at the Mila Quebec AI Institute, where he focused on research at the intersection of neuroscience and artificial intelligence. Shahab is currently leading the Systems Neuroscience and AI Lab (SNAIL) at University of Montreal. Research at SNAIL specifically focuses on visual perception and learning in both biological brains and artificial neural networks. We use deep learning as a computational framework to model learning and perception in the brain, and leverage our understanding of the nervous system to create more biologically-inspired artificial intelligence.
 
 
 **Summary**:  Functional specialization is a fundamental organizational characteristic of the nervous system. The brain consists of anatomical modules (areas and pathways), each with a specific specialization for carrying out particular processes. In the visual system, in particular, specialized pathways have developed to process visual input in distinct manners, facilitating the implementation of a wide range of intelligent behaviors by combining their outputs. Recent advances in Artificial Intelligence (AI) have led to machines capable of displaying diverse forms of visual intelligence, including tasks like object segmentation, categorization, and manipulation using visual input streams. The deep learning approach in AI not only enhanced machine vision but also provided a new means of understanding the visual system. Specifically, it enables us to model and grasp the functional properties of the visual system as emergent characteristics arising from a distributed network of neurons that are tuned for specific visual input statistics. This suggests the potential capability of this framework as an ideal foundation for investigating specialization in both biological and artificial visual systems.
@@ -141,31 +152,29 @@ In this hand-on session, I will introduce how to build such a biologically-const
 In this talk, we will provide an overview of the recent works in developing artificial neural networks (ANN) that, first, possess specialized pathways, and second, their specialization closely resembles that of the visual cortex. We believe this represents the next phase of understanding the parallels between brains and ANNs, where the best model of the visual system also replicates its specialized pathways.
 
 
-
-
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
-
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
 
 
 
 ## Aligning representations across individual models
+
 ### Instructor
 
 ::::{card-carousel} 3
@@ -173,7 +182,7 @@ In this talk, we will provide an overview of the recent works in developing arti
 :margin: 3
 :class-body: text-center
 :link: https://github.com/emdupre
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
+:img-top: images/elizabeth_dupre.jpg
 :::
 ::::
 
@@ -188,27 +197,30 @@ Currently, her research focuses on expanding our statistical toolkit for drawing
 
 In this talk, I will introduce techniques for aligning representations in both brains and in machines. I will argue for the importance of considering alignment methods in developing a comprehensive science at the intersection of artificial intelligence and neuroscience that reflects our shared goal of understanding principles of computation. Finally, I will consider current applications and limitations of these techniques, discussing relevant future directions for this area.
 
+
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
+
 
 
 ## Multi-modal modeling, auditory - Language modeling beyond language modeling
+
 ### Instructor
 
 ::::{card-carousel} 3
@@ -216,8 +228,7 @@ In this talk, I will introduce techniques for aligning representations in both b
 :margin: 3
 :class-body: text-center
 :link: https://github.com/mtoneva
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
-:::
+:img-top: images/mariya_toneva.jpg
 ::::
 
 
@@ -229,25 +240,24 @@ In this talk, I will introduce techniques for aligning representations in both b
 In this talk, we will discuss a series of recent works that make progress towards these questions along different dimensions. The unifying principle among these works that allows us to make scientific claims about why one black box (language model) aligns with another black box (the human brain) is our ability to make specific perturbations in the language model and observe their effect on the alignment with the brain. Building on this approach, these works reveal that the observed alignment is due to more than next-word prediction and word-level semantics and is partially related to joint processing of select linguistic information in both systems. Furthermore, we find that the brain alignment can be improved by training a language model to summarize narratives, and to incorporate auditory and visual information of a scene. Taken together, these works make progress towards determining the sufficient and necessary conditions under which language in machines aligns with language in the brain.
 
 
-
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
 
 
 
@@ -260,8 +270,7 @@ In this talk, we will discuss a series of recent works that make progress toward
 :margin: 3
 :class-body: text-center
 :link: https://github.com/lwehbe
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
-:::
+:img-top: images/leila_wehbe.jpg
 ::::
 
 
@@ -273,24 +282,26 @@ In this talk, we will discuss a series of recent works that make progress toward
 
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
 
-## Approaches for modeling brain responses to natural language using NLP
+
+
+## Ethics in NeuroAI: In the Making of the NeuroAI Responsible 
 
 ### Instructor
 
@@ -299,9 +310,10 @@ In this talk, we will discuss a series of recent works that make progress toward
 :margin: 3
 :class-body: text-center
 :link: https://github.com/complexbrains
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
+:img-top: images/isil_bilgin.jpg
 :::
 ::::
+
 
 **Isil Poyraz Bilgin, PhD** is a Postdoctoral research fellow at the [CRUIGM](https://criugm.qc.ca/en/) [CNeuroMod](https://www.cneuromod.ca/) project and is supervised by [Prof. Leila Wehbe](https://www.cs.cmu.edu/~lwehbe/) and [Prof. Pierre Bellec](https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the). Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features of brain dynamics in processing naturalistic stimuli. She holds a bachelor's degree in pure mathematics and Ph.D. in Cybernetics. Her thesis work focuses on dynamic functional connectivity of the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.
 
@@ -310,21 +322,22 @@ In this talk, we will discuss a series of recent works that make progress toward
 
 NeuroAI cannot be considered as a separate discipline but a multidisciplinary effort of a crossroad between AI, computer science, neuroscience, psychology, linguistics, philosophy, law, and ethics. As researchers, industry professionals, and members of the community, we all are required to follow responsible practices in data use and protection, fair and transparent resource allocations, and elimination of biases and discrimination that are inherent in AI applications. In this talk, we will discuss the current and future ethical concerns the NeuroAI faces today, share the current initiatives in making the NeuroAI more responsible and fair, and help attendees understand necessary steps toward adopting ethical practices in future work in this area.  
 
+
 ### Materials
 
- ::::{card-carousel} 4
+::::{card-carousel} 3
 
- :::{card}
- :margin: 3
- :class-body: text-center
- :class-header: bg-light text-center
- :link: https://youtu.be/
- **Video of this session**
- ^^^
- ```{image} images/logo_youtube.png
- :height: 100
- ```
- +++
- Get to the session {fas}`arrow-right`
- :::
- ::::
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
