@@ -62,7 +62,7 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :link: ./material.html#handson-elizbeth-dupre
-:img-top: images/elizbeth_dupre.jpg
+:img-top: images/elizabeth_dupre.jpg
 Learn more {fas}`arrow-right`
 :::
 ::::
@@ -121,7 +121,7 @@ Learn more {fas}`arrow-right`
 :link: ./material.html#model-selection-and-validation
 **Moderator: Shahab Bakhtiari & Isil Poyraz Bilgin**
 ^^^
-```{image} images/logo_scikit-learn.png
+```{image} images/logo.png
 :height: 100
 ```
 Navigating the Future of NeuroAI: Exploring the Role of Neuroimaging Research - Panel Discussion
@@ -130,6 +130,8 @@ Navigating the Future of NeuroAI: Exploring the Role of Neuroimaging Research - 
 Learn more {fas}`arrow-right`
 :::
 ::::
+
+16:55 EST - 17:00 EST **Closing**
 
 ::::{card-carousel} 3
 :::{card} Prof. Pierre Bellec
@@ -140,6 +142,5 @@ Learn more {fas}`arrow-right`
 Learn more {fas}`arrow-right`
 :::
 ::::
-16:55 EST - 17:00 EST **Closing**
 
 17:00 EST **Conference Opening Ceremony and Reception**
