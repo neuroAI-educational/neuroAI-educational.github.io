@@ -1,0 +1,844 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Material &#8212; NeuroAI Educational</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'material';</script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Venue" href="venue.html" />
+    <link rel="prev" title="Program" href="program.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="speakers.html">Speakers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="program.html">Program</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="venue.html">Venue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="organizers.html">Organizers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CoC.html">Code of Conduct</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/neuroAI-educational/neuroAI-educational.github.io" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/neuroAI-educational/neuroAI-educational.github.io/issues/new?title=Issue%20on%20page%20%2Fmaterial.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/material.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Material</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-introduction-and-overview-of-neuroai">Course introduction and overview of NeuroAI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#materials">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-and-interpretive-issues-for-constructing-brain-models-from-ai-systems">Technical and interpretive issues for constructing brain models from AI systems</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">Instructors</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#brain-encoding-and-decoding-using-biologically-constrained-dnns">Brain encoding and decoding using biologically constrained DNNs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instructor">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functional-specialisation-in-biological-and-artificial-neural-networks">Functional specialisation in biological and artificial neural networks</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aligning-representations-across-individual-models">Aligning representations across individual models</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#multi-modal-modeling-auditory-language-modeling-beyond-language-modeling">Multi-modal modeling, auditory - Language modeling beyond language modeling</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approaches-for-modeling-brain-responses-to-natural-language-using-nlp">Approaches for modeling brain responses to natural language using NLP</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Approaches for modeling brain responses to natural language using NLP</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Materials</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="material">
+<h1>Material<a class="headerlink" href="#material" title="Permalink to this heading">#</a></h1>
+<section id="course-introduction-and-overview-of-neuroai">
+<h2>Course introduction and overview of NeuroAI<a class="headerlink" href="#course-introduction-and-overview-of-neuroai" title="Permalink to this heading">#</a></h2>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="_images/pierre_bellec.jpg" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Prof. Pierre Bellec</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/pbellec"></a></div>
+</div>
+<p><strong>Pierre Bellec, PhD</strong> TBD</p>
+<p><strong>Summary</strong>: NeuroAI research makes use of artificial neural networks (ANNs) developed by the AI community to model the activity of the brain or, conversely, uses observations of the brain to infer better, more effective AI models. This broad research topic encompasses a rich variety of application tasks, ranging from vision to language but also increasingly including domains such as working memory or control tasks. NeuroAI also incorporates a wide range of techniques, from established analyses predicting brain activity using ANNs (brain encoding) to inferring stimuli from brain activity using ANNs (brain decoding), as well as emerging topics such as end-to-end training of ANNs to mimic brain activity or crafting stimuli maximizing brain responses using ANNs.</p>
+<p>This introduction will provide prominent examples of neuroAI research studies to illustrate major application domains and techniques, and conceptualize how the different lectures of the course will help the audience get exposed to the most salient areas of the neuroAI research space.</p>
+<section id="materials">
+<h3>Materials<a class="headerlink" href="#materials" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://www.youtube.com/"></a></div>
+</div>
+</section>
+</section>
+<section id="technical-and-interpretive-issues-for-constructing-brain-models-from-ai-systems">
+<h2>Technical and interpretive issues for constructing brain models from AI systems<a class="headerlink" href="#technical-and-interpretive-issues-for-constructing-brain-models-from-ai-systems" title="Permalink to this heading">#</a></h2>
+<section id="instructors">
+<h3>Instructors<a class="headerlink" href="#instructors" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Prof. Thomas Naselaris</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/tnaselar"></a></div>
+</div>
+<p><strong>Thomas Naselaris, PhD</strong> majored in Math and Philosophy as an undergraduate at Indiana University. He received a Ph.D. in Neuroscience under Apostolos Georgopoulos at the University of Minnesota. He completed a postdoctoral fellowship under Jack Gallant at University of California, Berkeley. He is currently an Associate Professor in the Department of Neuroscience at the University of Minnesota, and a member of the Medical Discovery Team on Optical Imaging and Brain Science at the Center for Magnetic Resonance Research. He is co-founder and currently an Executive Chair of the Conference on Cognitive Computational Neuroscience. The Naselaris lab studies the computations that make it possible to see and think. Taking inspiration from the tools and concepts of AI, we use computational models to bridge observations of brain activity at many spatial and temporal scales, from fMRI in humans to 2-photon microscopy in animal models. We are especially interested in the generative capabilities of the visual system. Much of life is spent imagining or dreaming of internal images that one has never actually observed. Why is the visual system so good at generating images, and how does this remarkable ability help us to see? We are addressing this question by monitoring the human brain as it engages complex, real-world scenery and as it calls upon memory to generate mental images.</p>
+<p><strong>Summary</strong>: The alignment of the intellectual goals of neuroscience and AI have led to a long and fruitful exchange of ideas. Over the years, neuroscience has provided AI with brain-inspired computational motifs that have been implemented and scaled to solve hard tasks. Recently, these implemented solutions to hard tasks have been converted into models that make highly accurate predictions of activity in sensing and acting brains.</p>
+<p>This lecture will focus on technical and interpretive issues around constructing brain models out of AI systems. We will begin with a discussion of the data and compute requirements for building brain models based on AI systems, followed by a discussion of statistical techniques for linking high-dimensional AI systems with the high-dimensional datasets. We will then discuss some of the challenges of interpreting mappings between components of the brain and AI systems, exploring the tension between mechanistic interpretations (e.g., “this piece of a neural network is like that piece of a brain”) and agnostic interpretations (e.g., “this AI system includes representations that span the space of measured brain activities”).</p>
+</section>
+<section id="id1">
+<h3>Materials<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+<section id="brain-encoding-and-decoding-using-biologically-constrained-dnns">
+<h2>Brain encoding and decoding using biologically constrained DNNs<a class="headerlink" href="#brain-encoding-and-decoding-using-biologically-constrained-dnns" title="Permalink to this heading">#</a></h2>
+<section id="instructor">
+<h3>Instructor<a class="headerlink" href="#instructor" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Dr. Yu Zhang</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/zhangyu2ustc"></a></div>
+</div>
+<p><strong>Yu Zhang, PhD</strong> is a Researcher at Zhejiang Lab (<a class="reference external" href="https://en.zhejianglab.com/">https://en.zhejianglab.com/</a>), working on bridging neuroscience research with artificial intelligence. Dr. Zhang received her Ph.D on medical imaging analysis from the Brainnetome center, Institute of Automation, Chinese Academy of Science in 2015, under the supervision of Prof. Tianzi Jiang. After graduation, she started her postdoctoral fellowship at McGill University and University de Montreal from 2015-2020. In 2018, Dr. Zhang received IVADO postdoc fellowship award funded for two years. In 2020, she joined the Zhejiang Lab at Hangzhou, China.
+Dr. Zhang has published over 30 scientific papers, with 2369 citations in total (such as eLife, Journal of Neuroscience, Cerebral Cortex, Neuroimage, Neurology etc.). Her current research interests include brain atlas, brain connectomes, encoding and decoding of brain cognition, modeling, simulating and modulating brain cognition using AI, and brain-inspired artificial intelligence.</p>
+<p><strong>Summary</strong>: A major goal in cognitive neuroscience research is to better understand the neural basis of cognitive functions. Artificial intelligence provides new avenues for modeling, simulating or even modulating the comprehensive processes of human cognition. By leveraging human brain atlas and connectome priors, we proposed a biologically-constrained GNN (BGNN) model to effectively combine local and distributed brain activities. The BGNN model learns multistage (temporally) and multilevel (spatially) latent representations transforming from sensory processing to representational abstraction (encoding phase) and predicts cognitive states using embedded representations at fine timescales (decoding phase). Moreover, it uncovered inter-subject aligned, behaviorally relevant neural representations underpinning cognitive processes and achieved better decoding of cognitive tasks. This approach has shown promising findings in representational learning of cognitive function and biologically meaningful interpretations of AI modeling of human cognition.</p>
+<p>In this hand-on session, I will introduce how to build such a biologically-constrained AI model by incorporating human brain atlas and connectome priors, how to optimize the DNN architecture for brain encoding and decoding, and how to interpret the representations learnt from AI models.</p>
+</section>
+<section id="id2">
+<h3>Materials<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+<section id="functional-specialisation-in-biological-and-artificial-neural-networks">
+<h2>Functional specialisation in biological and artificial neural networks<a class="headerlink" href="#functional-specialisation-in-biological-and-artificial-neural-networks" title="Permalink to this heading">#</a></h2>
+<section id="id3">
+<h3>Instructor<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Prof. Shahab Bakhtiari</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/ShahabBakht"></a></div>
+</div>
+<p><strong>Shahab Bakhtiari, PhD</strong> TBD</p>
+<p><strong>Summary</strong>:  Functional specialization is a fundamental organizational characteristic of the nervous system. The brain consists of anatomical modules (areas and pathways), each with a specific specialization for carrying out particular processes. In the visual system, in particular, specialized pathways have developed to process visual input in distinct manners, facilitating the implementation of a wide range of intelligent behaviors by combining their outputs. Recent advances in Artificial Intelligence (AI) have led to machines capable of displaying diverse forms of visual intelligence, including tasks like object segmentation, categorization, and manipulation using visual input streams. The deep learning approach in AI not only enhanced machine vision but also provided a new means of understanding the visual system. Specifically, it enables us to model and grasp the functional properties of the visual system as emergent characteristics arising from a distributed network of neurons that are tuned for specific visual input statistics. This suggests the potential capability of this framework as an ideal foundation for investigating specialization in both biological and artificial visual systems.</p>
+<p>In this talk, we will provide an overview of the recent works in developing artificial neural networks (ANN) that, first, possess specialized pathways, and second, their specialization closely resembles that of the visual cortex. We believe this represents the next phase of understanding the parallels between brains and ANNs, where the best model of the visual system also replicates its specialized pathways.</p>
+</section>
+<section id="id4">
+<h3>Materials<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+<section id="aligning-representations-across-individual-models">
+<h2>Aligning representations across individual models<a class="headerlink" href="#aligning-representations-across-individual-models" title="Permalink to this heading">#</a></h2>
+<section id="id5">
+<h3>Instructor<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Dr. Elizabeth DuPre</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/emdupre"></a></div>
+</div>
+<p><strong>Elizabeth DuPre, PhD</strong> is a Wu Tsai Interdisciplinary Postdoctoral Scholar, working in collaboration with Dr. Russell Poldrack and Dr. Scott Linderman.
+She has a background in cognitive and computational psychology, with a PhD in Neuroscience from McGill University and an MA in Developmental Psychology from Cornell University.</p>
+<p>Currently, her research focuses on expanding our statistical toolkit for drawing inferences from high-dimensional, naturalistic datasets measured with modalities such as functional magnetic resonance imaging (fMRI). To do this, she is developing new methods and accompanying open source tools.</p>
+<p><strong>Summary</strong>: Computational neuroscience is focused on uncovering general organizational principles supporting neural activity and behavior; however, uncovering these principles relies on making appropriate comparisons across individuals. This presents a core technical and conceptual challenge, as individuals differ along nearly every relevant dimension: from the number of neurons supporting computation to the exact computation being performed. Similarly in artificial neural networks, multiple initializations of the same architecture—on the same data—may recruit non-overlapping hidden units, complicating direct comparisons of trained networks.</p>
+<p>In this talk, I will introduce techniques for aligning representations in both brains and in machines. I will argue for the importance of considering alignment methods in developing a comprehensive science at the intersection of artificial intelligence and neuroscience that reflects our shared goal of understanding principles of computation. Finally, I will consider current applications and limitations of these techniques, discussing relevant future directions for this area.</p>
+</section>
+<section id="id6">
+<h3>Materials<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+<section id="multi-modal-modeling-auditory-language-modeling-beyond-language-modeling">
+<h2>Multi-modal modeling, auditory - Language modeling beyond language modeling<a class="headerlink" href="#multi-modal-modeling-auditory-language-modeling-beyond-language-modeling" title="Permalink to this heading">#</a></h2>
+<section id="id7">
+<h3>Instructor<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Prof. Mariya Toneva</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/mtoneva"></a></div>
+</div>
+<p><strong>Mariya Toneva, PhD</strong> TBD</p>
+<p><strong>Summary</strong>: Language models that have been trained to predict the next word over billions of text documents have been shown to also significantly predict brain recordings of people comprehending language. Understanding the reasons behind the observed similarities between language in machines and language in the brain can lead to more insight into both systems. Additionally, the human language system integrates information from multiple sensory modalities which puts text-only language models at a fundamental disadvantage as cognitive models.</p>
+<p>In this talk, we will discuss a series of recent works that make progress towards these questions along different dimensions. The unifying principle among these works that allows us to make scientific claims about why one black box (language model) aligns with another black box (the human brain) is our ability to make specific perturbations in the language model and observe their effect on the alignment with the brain. Building on this approach, these works reveal that the observed alignment is due to more than next-word prediction and word-level semantics and is partially related to joint processing of select linguistic information in both systems. Furthermore, we find that the brain alignment can be improved by training a language model to summarize narratives, and to incorporate auditory and visual information of a scene. Taken together, these works make progress towards determining the sufficient and necessary conditions under which language in machines aligns with language in the brain.</p>
+</section>
+<section id="id8">
+<h3>Materials<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+<section id="approaches-for-modeling-brain-responses-to-natural-language-using-nlp">
+<h2>Approaches for modeling brain responses to natural language using NLP<a class="headerlink" href="#approaches-for-modeling-brain-responses-to-natural-language-using-nlp" title="Permalink to this heading">#</a></h2>
+<section id="id9">
+<h3>Instructor<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Dr. Leila Wehbe</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/lwehbe"></a></div>
+</div>
+<p><strong>Leila Wehbe, PhD</strong> TBD</p>
+<p><strong>Summary</strong>: Over the past years a strong alignment has been observed between language model representations and brain activity recordings of individuals that process the same text. This has led to a lot of interest in using these models to understand more about how the brain comprehends language. However, this goal remains challenging due to the complexity of brain activity and the uninterpretable nature of network representations. We explain how to use “computational controls” to make targeted hypothesis tests using encoding models built on representations extracted from neural networks. We further show how to better learn these encoding models and how to interpret them to explore the tuning of different brain regions.</p>
+</section>
+<section id="id10">
+<h3>Materials<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+<section id="id11">
+<h2>Approaches for modeling brain responses to natural language using NLP<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h2>
+<section id="id12">
+<h3>Instructor<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/7978607?v=4" />
+<div class="sd-card-body text-center docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Dr. Isil Poyraz Bilgin</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/complexbrains"></a></div>
+</div>
+<p><strong>Isil Poyraz Bilgin, PhD</strong> is a Postdoctoral research fellow at the <a class="reference external" href="https://criugm.qc.ca/en/">CRUIGM</a> <a class="reference external" href="https://www.cneuromod.ca/">CNeuroMod</a> project and is supervised by <a class="reference external" href="https://www.cs.cmu.edu/~lwehbe/">Prof. Leila Wehbe</a> and <a class="reference external" href="https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the">Prof. Pierre Bellec</a>. Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features of brain dynamics in processing naturalistic stimuli. She holds a bachelor’s degree in pure mathematics and Ph.D. in Cybernetics. Her thesis work focuses on dynamic functional connectivity of the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.</p>
+<p><strong>Summary</strong>: The recent decade witnessed a fast revolution of artificial intelligence and its integration in the biological sciences. AI-powered methodologies and tools serve as important facilitators in decoding brain data for clinical and commercial purposes. However, one of the core remaining challenges in building intelligent agents is responsibly handling the training data and resources.</p>
+<p>NeuroAI cannot be considered as a separate discipline but a multidisciplinary effort of a crossroad between AI, computer science, neuroscience, psychology, linguistics, philosophy, law, and ethics. As researchers, industry professionals, and members of the community, we all are required to follow responsible practices in data use and protection, fair and transparent resource allocations, and elimination of biases and discrimination that are inherent in AI applications. In this talk, we will discuss the current and future ethical concerns the NeuroAI faces today, share the current initiatives in making the NeuroAI more responsible and fair, and help attendees understand necessary steps toward adopting ethical practices in future work in this area.</p>
+</section>
+<section id="id13">
+<h3>Materials<a class="headerlink" href="#id13" title="Permalink to this heading">#</a></h3>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-4 docutils">
+<div class="sd-card sd-sphinx-override sd-m-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light text-center docutils">
+<p class="sd-card-text"><strong>Video of this session</strong></p>
+</div>
+<div class="sd-card-body text-center docutils">
+<a class="reference internal image-reference" href="_images/logo_youtube.png"><img alt="_images/logo_youtube.png" src="_images/logo_youtube.png" style="height: 100px;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Get to the session <span class="fas fa-arrow-right"></span></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://youtu.be/"></a></div>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="program.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Program</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="venue.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Venue</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-introduction-and-overview-of-neuroai">Course introduction and overview of NeuroAI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#materials">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-and-interpretive-issues-for-constructing-brain-models-from-ai-systems">Technical and interpretive issues for constructing brain models from AI systems</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">Instructors</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#brain-encoding-and-decoding-using-biologically-constrained-dnns">Brain encoding and decoding using biologically constrained DNNs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instructor">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functional-specialisation-in-biological-and-artificial-neural-networks">Functional specialisation in biological and artificial neural networks</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aligning-representations-across-individual-models">Aligning representations across individual models</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#multi-modal-modeling-auditory-language-modeling-beyond-language-modeling">Multi-modal modeling, auditory - Language modeling beyond language modeling</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approaches-for-modeling-brain-responses-to-natural-language-using-nlp">Approaches for modeling brain responses to natural language using NLP</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Materials</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Approaches for modeling brain responses to natural language using NLP</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Instructor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Materials</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NeuroAI Educational Team
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
