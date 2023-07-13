@@ -1,14 +1,12 @@
-## Speakers
+# Speakers
 
-
+::::{card-carousel} 3 
 :::{card} Prof. Pierre Bellec
 :margin: 3
 :class-body: text-center
 :link: https://github.com/pbellec
 :img-top: images/pierre_bellec.jpg
 :::
-
-::::{card-carousel} 3
 
 :::{card} Prof. Thomas Naselaris
 :margin: 3
@@ -23,7 +21,9 @@
 :link: https://github.com/zhangyu2ustc
 :img-top: images/yu_zhang.jpg
 :::
+::::
 
+::::{card-carousel} 3 
 :::{card} Prof. Shahab Bakhtiari
 :margin: 3
 :class-body: text-center
@@ -45,8 +45,9 @@
 :link: https://github.com/mtoneva
 :img-top: images/mariya_toneva.jpg
 :::
+::::
 
-
+::::{card-carousel} 3 
 :::{card} Prof. Leila Wehbe
 :margin: 3
 :class-body: text-center
@@ -61,5 +62,4 @@
 :link: https://github.com/complexbrains
 :img-top: images/isil_bilgin.jpg
 :::
-
 ::::
