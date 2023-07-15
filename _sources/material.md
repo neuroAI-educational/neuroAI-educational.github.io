@@ -19,7 +19,7 @@
 
 **Summary**: NeuroAI research makes use of artificial neural networks (ANNs) developed by the AI community to model the activity of the brain or, conversely, uses observations of the brain to infer better, more effective AI models. This broad research topic encompasses a rich variety of application tasks, ranging from vision to language but also increasingly including domains such as working memory or control tasks. NeuroAI also incorporates a wide range of techniques, from established analyses predicting brain activity using ANNs (brain encoding) to inferring stimuli from brain activity using ANNs (brain decoding), as well as emerging topics such as end-to-end training of ANNs to mimic brain activity or crafting stimuli maximizing brain responses using ANNs.
 
-This introduction will provide prominent examples of neuroAI research studies to illustrate major application domains and techniques, and conceptualize how the different lectures of the course will help the audience get exposed to the most salient areas of the neuroAI research space.
+This introduction will provide prominent examples of NeuroAI research studies to illustrate major application domains and techniques, and conceptualize how the different lectures of the course will help the audience get exposed to the most salient areas of the NeuroAI research space.
 
 
 ### Materials
@@ -232,7 +232,8 @@ Get to the session {fas}`arrow-right`
 ::::
 
 
-**Mariya Toneva, PhD** TBD
+**Mariya Toneva, PhD** is faculty at the Max Planck Institute for Software Systems, where she leads the Bridging AI and Neuroscience group (BrAIN). Her research is at the intersection of Machine Learning, Natural Language Processing, and Neuroscience, with a focus on building computational models of language processing in the brain that can also improve natural language processing systems. Prior to MPI-SWS, Mariya was a C.V. Starr Fellow at the Princeton Neuroscience Institute, where she studied the role of episodic memory in language comprehension together with Ken Norman and Uri Hasson. She received her Ph.D. from Carnegie Mellon University in a joint program between Machine Learning and Neural Computation, where she was advised by Leila Wehbe and Tom Mitchell. Before beginning her graduate studies at CMU, she received a B.S. in both Computer Science and Cognitive Science from Yale University.
+
 
 
 **Summary**: Language models that have been trained to predict the next word over billions of text documents have been shown to also significantly predict brain recordings of people comprehending language. Understanding the reasons behind the observed similarities between language in machines and language in the brain can lead to more insight into both systems. Additionally, the human language system integrates information from multiple sensory modalities which puts text-only language models at a fundamental disadvantage as cognitive models.
@@ -315,7 +316,7 @@ Get to the session {fas}`arrow-right`
 ::::
 
 
-**Isil Poyraz Bilgin, PhD** is a Postdoctoral research fellow at the [CRUIGM](https://criugm.qc.ca/en/) [CNeuroMod](https://www.cneuromod.ca/) project and is supervised by [Prof. Leila Wehbe](https://www.cs.cmu.edu/~lwehbe/) and [Prof. Pierre Bellec](https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the). Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features of brain dynamics in processing naturalistic stimuli. She holds a bachelor's degree in pure mathematics and Ph.D. in Cybernetics. Her thesis work focuses on dynamic functional connectivity of the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.
+**Isil Poyraz Bilgin, PhD** is a Postdoctoral research fellow at the [CRUIGM](https://criugm.qc.ca/en/) [CNeuroMod](https://www.cneuromod.ca/) project and is supervised by [Prof. Leila Wehbe](https://www.cs.cmu.edu/~lwehbe/) and [Prof. Pierre Bellec](https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the). Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features of brain dynamics in processing naturalistic stimuli. She holds a bachelor's degree in pure mathematics, MSc. in Information Technologies, MSc. in Neuroscience of Language and Ph.D. in Cybernetics. Her thesis work focuses on dynamic functional connectivity of the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.
 
 
 **Summary**: The recent decade witnessed a fast revolution of artificial intelligence and its integration in the biological sciences. AI-powered methodologies and tools serve as important facilitators in decoding brain data for clinical and commercial purposes. However, one of the core remaining challenges in building intelligent agents is responsibly handling the training data and resources.
