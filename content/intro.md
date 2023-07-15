@@ -1,8 +1,6 @@
-# Welcome
-
 ![](./banner.png)
 
-
+# Welcome
 The NeuroAI educational workshop is organized by Dr. Isil Poyraz Bilgin, Centre de recherche de l'Institut universitaire de gériatrie de Montréal (CRIUGM), Prof. Pierre Bellec, University of Montreal (UdeM), Dr. Elizabeth DuPre, Wu Tsai Neurosciences Institute, Stanford University, as part of the annual [Organization for Human Brain Mapping (OHBM) 2023 conference](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4204).
 
 The event is hold as an in-person event, however the pre-recording of the sessions will be accessible via OHBM's online platform. 
