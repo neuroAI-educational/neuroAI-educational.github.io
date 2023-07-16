@@ -275,8 +275,7 @@ Get to the session {fas}`arrow-right`
 ::::
 
 
-**Leila Wehbe, PhD** TBD
-
+**Leila Wehbe, PhD** is an assistant professor in the Machine Learning Department and the Neuroscience Institute at Carnegie Mellon University. Her work is at the interface of cognitive neuroscience and computer science. It combines naturalistic functional imaging with machine learning both to improve our understanding of the brain and to find insight for building better artificial systems. Previously, she was a postdoctoral researcher at UC Berkeley, working with Jack Gallant. She obtained her PhD from Carnegie Mellon University, where she worked with Tom Mitchell.
 
 **Summary**: Over the past years a strong alignment has been observed between language model representations and brain activity recordings of individuals that process the same text. This has led to a lot of interest in using these models to understand more about how the brain comprehends language. However, this goal remains challenging due to the complexity of brain activity and the uninterpretable nature of network representations. We explain how to use "computational controls" to make targeted hypothesis tests using encoding models built on representations extracted from neural networks. We further show how to better learn these encoding models and how to interpret them to explore the tuning of different brain regions.
 
