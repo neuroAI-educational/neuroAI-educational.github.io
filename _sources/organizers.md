@@ -39,3 +39,13 @@
 :img-top: images/pravish_sainath.jpg
 :::
 ::::
+
+
+:::{card} Mr. Yann Harel 
+:margin: 3
+:class-body: text-center
+:link: https://github.com/hyruuk
+:img-top: images/yann_harel.png
+:::
+::::
+
