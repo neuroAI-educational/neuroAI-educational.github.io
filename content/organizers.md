@@ -38,7 +38,6 @@
 :link: https://github.com/pravishsainath
 :img-top: images/pravish_sainath.jpg
 :::
-::::
 
 
 :::{card} Mr. Yann Harel 
