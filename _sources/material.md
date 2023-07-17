@@ -2,7 +2,7 @@
 
 ## Course introduction and overview of NeuroAI
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Prof. Pierre Bellec
@@ -45,7 +45,7 @@ Get to the session {fas}`arrow-right`
 
 ## Technical and interpretive issues for constructing brain models from AI systems
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Prof. Thomas Naselaris
@@ -88,7 +88,7 @@ Get to the session {fas}`arrow-right`
 
 ## Brain encoding and decoding using biologically constrained DNNs
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Dr. Yu Zhang
@@ -132,7 +132,7 @@ Get to the session {fas}`arrow-right`
 
 ## Functional specialisation in biological and artificial neural networks
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Prof. Shahab Bakhtiari
@@ -175,7 +175,7 @@ Get to the session {fas}`arrow-right`
 
 ## Aligning representations across individual models
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Dr. Elizabeth DuPre
@@ -221,7 +221,7 @@ Get to the session {fas}`arrow-right`
 
 ## Multi-modal modeling, auditory - Language modeling beyond language modeling
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Prof. Mariya Toneva
@@ -264,7 +264,7 @@ Get to the session {fas}`arrow-right`
 
 ## Approaches for modeling brain responses to natural language using NLP
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Dr. Leila Wehbe
@@ -303,7 +303,7 @@ Get to the session {fas}`arrow-right`
 
 ## Ethics in NeuroAI: In the Making of the NeuroAI Responsible 
 
-### Instructor
+### Speaker
 
 ::::{card-carousel} 3
 :::{card} Dr. Isil Poyraz Bilgin

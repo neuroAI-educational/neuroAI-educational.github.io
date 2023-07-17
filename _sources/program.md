@@ -96,7 +96,7 @@ Learn more {fas}`arrow-right`
 :::
 ::::
 
-14:45 EST - 15:15 EST **Lunch Break** (provided onsite)
+14:45 EST - 15:15 EST **Coffee Break** (provided onsite)
 
 15:15 EST - 15:45 EST **Lecture**
 
