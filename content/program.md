@@ -7,7 +7,7 @@
 08:00 EST - 08:15 EST - **Introduction**
 
 ::::{card-carousel} 3
-:::{card} Prof. Pierre Bellec - Course introduction and overview of NeuroAI
+:::{card} Prof. Pierre Bellec - Introduction to the "NeuroAI: Artificial Neural Networks as Models of the Brain in Cognitive Neuroscience"
 :margin: 3
 :class-body: text-center
 :link: ./material.html#introduction-pierre-bellec
