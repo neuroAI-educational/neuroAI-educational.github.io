@@ -22,3 +22,11 @@ There are thematic of the event:
 This event will be held as a full day educational session starting at 8 am EST until 5 pm EST. There will be a lunch break at 12-1 pm EST, and two coffee breaks each of 30 min durations, one in the morning and one in the afternoon.
 
 There will be continous access to water and coffee outside of the event room. 
+
+Attendees will be able to use the voting system available through the OHBM Annual Meeting. 
+
+- For iOS and Android users: Search the App Store or Google Play from your device for “OHBM Annual Meetings”. Download and choose the 2023 OHBM Event in the list of available shows.
+- For Blackberry, windows, and all other phone types, visit https://www.core-apps.com/dl/ohbm2023. From there you will be directed to download the proper version of the app for your particular device, or on some phones, bookmark this page for future reference.
+
+Then you will find the NeuroAI session and associated talks to raise your questions and vote the others.
+
