@@ -236,6 +236,25 @@ Get to the session {fas}`arrow-right`
 ::::
 
 
+::::{card-carousel} 3
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://zenodo.org/record/8173547
+**Slides of this session**
+^^^
+```{image} images/zenodo.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
+
+
+
 
 ## Multi-modal modeling, auditory - Language modeling beyond language modeling
 
